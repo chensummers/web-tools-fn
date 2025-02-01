@@ -1,6 +1,6 @@
 {
   "name": "web-tools-fn",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "This is a tool function package about javascript",
   "keywords": [
     "javascript",
@@ -38,5 +38,9 @@
     "@babel/preset-env": "^7.26.7",
     "typescript": "^5.7.3",
     "undici-types": "^7.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chensummers/web-tools-fn.git"
   }
 }
