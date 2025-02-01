@@ -1,6 +1,6 @@
 {
-  "name": "web-tools-fn",
-  "version": "1.0.10",
+  "name": "web-tools-fns",
+  "version": "1.0.0",
   "description": "This is a tool function package about javascript",
   "keywords": [
     "javascript",
