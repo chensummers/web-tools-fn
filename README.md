@@ -17,7 +17,7 @@ npm install web-tools-fn
 >- 图片固定尺寸压缩
 >- 图片固定数值压缩
 >- 图片原图尺寸绘制
->- 详情见[IMAGES.README.MD](https://github.com/chensummers/web-tools-fn/blob/master/README.IMAGES.md)
+>- 详情见[IMAGES.README.MD](https://github.com/chensummers/web-tools-fn/blob/main/README.IMAGES.md)
 
 ````
 // 引入
@@ -46,7 +46,7 @@ from 'web-tools-fn/images-types'
 >- 日期格式化
 >- 相对日期文本格式化
 >- diff日期
->- 详情见[DATE.README.MD]()
+>- 详情见[DATE.README.MD](https://github.com/chensummers/web-tools-fn/blob/main/README.DATE.md)
 
 ````
 // 引入
