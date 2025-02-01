@@ -1,0 +1,42 @@
+{
+  "name": "web-tools-fn",
+  "version": "1.0.10",
+  "description": "This is a tool function package about javascript",
+  "keywords": [
+    "javascript",
+    "ts",
+    "web-tools",
+    "web-tools-fn",
+    "web-tools-fn-images",
+    "web-tools-fn-utils",
+    "web-tools-fn-images-types",
+    "vue",
+    "react",
+    "react-hooks",
+    "typescript",
+    "date"
+  ],
+  "license": "ISC",
+  "author": "summer",
+  "type": "module",
+  "exports": {
+    "./utils-types": "./src/utils/index.ts",
+    "./utils": "./dist/utils/index.js",
+    "./images-types": "./src/images/index.ts",
+    "./images": "./dist/images/index.js",
+    "./date-types": "./src/date/index.ts",
+    "./date": "./dist/date/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc & npm run rewrite",
+    "rewrite": "node ./scripts/change-imports.cjs"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7",
+    "typescript": "^5.7.3",
+    "undici-types": "^7.3.0"
+  }
+}
